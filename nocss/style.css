@@ -1,0 +1,136 @@
+/*
+Theme Name: Sensate
+Theme URI: http://www.dirkweiss.com
+Description: Theme for Sensate Journal - Designed and developed by goodgood / Dirk+Weiss
+Version: 1.0
+Author: goodgood
+Author URI: http://www.goodgoodland.com
+Tags: clean,sensate
+*/
+
+
+@font-face {
+  font-family: 'Cousine';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Cousine'), url('fonts/Simple-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SimpleLight';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Cousine'), url('fonts/Simple-Light.otf') format('opentype');
+}
+
+
+/* Global Styles */
+
+hr {border-top:1px #999 dotted;}
+
+audio {width:210px; float:left;}
+
+body {font-family: arial, serif; font-size:90%; margin:0; background-size: 100%; background-attachment:fixed; }
+
+h4 {margin:0;}
+
+a {text-decoration:none; color:#000;}
+
+#content {width:1010px; height:600px; margin:0 auto; margin-top:50px;}
+
+.clear {clear: both;} 
+
+.toptitle {float:left; padding:18px 15px 14px 12px; margin-left:80px; font-size:13px; font-family: 'Cousine';}
+
+.toptitle a {color:#000;}
+
+.topnav {width:1005px; height:50px; background:url(images/sensatelogo.png) top left no-repeat; }
+
+.homebtn {width:50px; height:50px; position:absolute;}
+
+.nav {background: url(images/navbg.png) no-repeat; opacity:.85; width:650px; padding:15px 15px 15px 60px; float:right; font-family: 'Cousine'; }
+
+.nav a {color:#fff; text-decoration:none; font-size:15px; margin-top:5px; }
+
+.searchbar { width:170px; padding:5px; background:rgba(200,200,200,.8);margin-left:825px; margin-top:60px; position:absolute; color:#777;font-family: 'Cousine'; font-size:11px;}
+
+.facebooklike {margin:5px 0 0 3px;}
+
+.leftarrow a {font-size:150px; color:rgba(255,255,255,.8); position:absolute;  margin-top:285px; margin-left:-0px; font-family: 'Cousine'; -moz-text-shadow:0 0 5px #444; text-shadow:0 0 5px #444;}
+
+.rightarrow a {font-size:150px; color:rgba(255,255,255,.8); position:absolute;  margin-left:100px; font-family: 'Cousine'; -moz-text-shadow:0 0 5px #444; text-shadow:0 0 5px #444;}
+
+.footer {font-size:10px; color:#666; margin:0 auto; width:600px; text-align:center; padding-bottom:20px; display:none;}
+
+
+
+/* Front Page Styles */
+.projects {width:745px; float:left; z-index:99; font-family: 'SimpleLight';  margin-left:80px; margin-top:65px;}
+
+.project { float:left; width:115px; height:115px;  font-size:17px; color:#444; padding:30px; margin:5px; font-style:italic; display:none;}
+
+#project-1{width:300px; height:295px;  float:left;  font-size:18px; color:#444; padding:30px; margin:5px; font-style:italic;}
+
+#project-2  {width:300px; height:110px; float:left; font-size:18px; color:#444; padding:30px; margin:5px;}
+
+.news {display:none; width:160px; height:520px; float:left; background:rgba(200,200,200,.8); padding:10px; font-size:10px; letter-spacing:0; margin-top:70px; font-family:arial; font-style:normal; line-height:12px;}
+
+.news h4 {font-style:normal;}
+
+.news li {list-style:none; margin:0 0 25px 0; margin-left:-37px;font-style:normal; }
+
+.news ui {width:160px; margin:0; font-style:normal;}
+
+.news a, .blogHeader a{margin:0; font-size:10px; font-family: Arial; text-decoration:none;color:#666;  font-style:normal;}
+
+.news a:hover {text-decoration:underline; color:#000;}
+
+.bgtext {color:#aaa; font-size:80px; position:absolute; z-index:-99; width:360px; height:400px; left:450px; top:295px; letter-spacing:-12px; font-family: 'SimpleLight'; font-style:italic;}
+
+.largeissuenumber {font-size:80px; color:#999; float:left; margin-top:300px; position:Absolute;}
+
+
+
+
+/* Multi Author Style */
+
+.author {float:left; background:rgba(230,230,230,.9);width:125px; height:125px; font-family: 'SimpleLight'; font-size:16px; color:#000; padding:30px; margin:70px 10px 5px 85px;}
+
+.contentarea {float:left; background:rgba(230,230,230,.9);width:495px; padding:0 20px 20px 20px; font-size:12px; line-height:15px; margin-right:5px; margin-top:70px;}
+
+.contentarea img {float:left;}
+
+.relatedlinks {width:120px; height:120px; margin:5px; padding:30px; font-size:18px; color:#000; font-size:12px;float:right; background:rgba(230,230,230,.9); margin-top:70px;}
+
+.breakoutmedia {float:right;}
+
+.pullquote {font-size:24px; color:#777; width:200px; line-height:30px; float:left; margin-top:20px; font-family: 'Cousine';}
+
+.relatedlinks a { text-decoration:underline; line-height:20px;}
+
+.additional-authors {float:left; background:rgba(150,150,150,.8);width:440px;  padding:20px; font-size:11px; line-height:14px; margin-right:5px;  margin-top:15px;}
+
+.additional-authors h4 {margin:0;}
+
+.articletext { padding:0px;}
+
+#previewFrame {margin:0;}
+
+/* Static Page */
+
+.col1 { width:225px; float:left; margin-top:20px;}
+
+.col2 { width:225px; float:right;margin-top:20px; }
+
+.navabout {background:#000; width:670px; padding:15px; float:right; text-align:center;}
+
+.navabout a {color:#fff; margin-right:52px; text-decoration:none; font-size:15px; }
+
+textarea {width:220px;}
+
+.articletext a {border-bottom: 1px dotted black;}
+
+.articletext a:hover {border-bottom: 0px; text-decoration: underline;}
+
+
+	
